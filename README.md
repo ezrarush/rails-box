@@ -4,7 +4,7 @@
 
 **This VM is based on [rails/rails-dev-box](https://github.com/rails/rails-dev-box).**
 
-This project automates the setup of a development environment Ruby on Rails Apps. Use this virtual machine to work on Rails projects with Postgres.
+This project automates the setup of a development environment for Ruby on Rails projects.
 
 ## Requirements
 
@@ -49,6 +49,8 @@ Port 3000 in the host computer is forwarded to port 3000 in the virtual machine.
 
 * An ExecJS runtime
 
+* emacs text editor
+
 ## Recommended Workflow
 
 The recommended workflow is
@@ -57,7 +59,7 @@ The recommended workflow is
 
 * test within the virtual machine.
 
-Just clone your Rails project into the rails-box directory on the host computer:
+Just clone all your Rails projects into the rails-box directory on the host computer:
 
     host $ ls
     bootstrap.sh MIT-LICENSE README.md Vagrantfile
